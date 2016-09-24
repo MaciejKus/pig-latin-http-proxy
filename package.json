@@ -1,0 +1,17 @@
+{
+  "name": "pig-latin-web-proxy",
+  "version": "1.0.0",
+  "description": "a proxy which renders websites in pig latin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "piglatin": "^0.1.2",
+    "replacestream": "^4.0.2",
+    "request": "^2.75.0"
+  }
+}
